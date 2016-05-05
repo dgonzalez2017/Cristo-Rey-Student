@@ -1,6 +1,16 @@
 <html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+         <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="223361940458-f0ric5nss3q2sng2btik801uafp3j4cl.apps.googleusercontent.com">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
@@ -28,20 +38,10 @@
             <h1>Welcome</h1>
              <input id="username" placeholder="Username"></input>
              <input id="password" placeholder="Password"></input>
-            <button id="login">Login</button>
+            <div class="g-signin2" data-onsuccess="onSignIn">
+                <button type="button">Sign In</button>
+                </div>
         </div>
-        <div class="container;col-lg-2">
-            <p style="font-weight:bold;">Junior Year 2015 - 2016</p>
-            <div class="col-lg-2" style="border:1px solid #000;height:600px;">
-                <p style="font-weight:bold;text-align:center;">Class Times</p>
-                <p style="font-weight:bold;text-align:center;"><u>First Period</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Second Period</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Second Period</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Second Period</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Second Period</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Enlgish</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>CWSP</u></p>
-                <p style="font-weight:bold;text-align:center;"><u>Physical Education</u></p>
-            </div>
+       
     </body>
 </html>
